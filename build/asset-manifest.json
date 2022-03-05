@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-form/public/static/css/main.3441f81d.css",
+    "main.js": "/react-form/public/static/js/main.856782ac.js",
+    "static/js/787.330f294f.chunk.js": "/react-form/public/static/js/787.330f294f.chunk.js",
+    "static/media/stars.png": "/react-form/public/static/media/stars.0b3118b59bd66029c8d4.png",
+    "static/media/description.png": "/react-form/public/static/media/description.b0568e3a7341f291564b.png",
+    "static/media/rocketman.png": "/react-form/public/static/media/rocketman.ab4e2786f2305671f9a1.png",
+    "static/media/formtitle.png": "/react-form/public/static/media/formtitle.2ee97aab6fa8698a740a.png",
+    "static/media/Welcome.png": "/react-form/public/static/media/Welcome.0ed0d4a310ffbd396003.png",
+    "index.html": "/react-form/public/index.html",
+    "main.3441f81d.css.map": "/react-form/public/static/css/main.3441f81d.css.map",
+    "main.856782ac.js.map": "/react-form/public/static/js/main.856782ac.js.map",
+    "787.330f294f.chunk.js.map": "/react-form/public/static/js/787.330f294f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3441f81d.css",
+    "static/js/main.856782ac.js"
+  ]
+}

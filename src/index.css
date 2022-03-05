@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h5, p {
+  text-align: center;
+  color: white;
+}
+
+.welcome {
+  height: 1080px;
+  width: 100%;
+  text-align: center;
+  background-image: url('./assets/stars.png');
+}
+
+.welcome-banner {
+  width: auto;
+  text-align: center;
+  padding-top: 175px;
+  padding-bottom: 115px;
+  left: 50%;
+  right: 50%;
+}
+
+.title {
+  width: auto;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 115px;
+  left: 50%;
+  right: 50%;
+}
+
+.submit-button {
+  padding: -20px;
+}
+
+.welcome-submit {
+  padding: 20px;
+  background-image: url('./assets/submit.png');
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.submitted-apps {
+  padding: 20px;
+}
+
+.rocketMan {
+  padding: 25px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rocketMan {
+    animation: rocketMan-spin infinite 20s linear;
+  }
+}
+
+@keyframes rocketMan-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered1 {
+  position: absolute;
+  /* padding: 20px;
+  margin: 20px; */
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+/* Input BG */
+
+input {
+  padding: 5px;
+  margin: 27px;
+  width: 455px;
+  height: 54px;;
+  background-color: #FFFFFF;
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+
+::placeholder { 
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  color: #454545;
+}
