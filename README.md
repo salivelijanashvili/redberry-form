@@ -8,4 +8,3 @@
 -> `cd redberry-form`
 -> `npm install`
 -> `npm start`
-

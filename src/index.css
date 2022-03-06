@@ -1,4 +1,6 @@
 body {
+  width: 1980px;
+  height: 1080px;
   background-color: black;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -75,7 +77,6 @@ h1, h5, p {
   }
 }
 
-
 .split {
   height: 100%;
   width: 50%;
@@ -115,8 +116,6 @@ img {
   height: auto;
 }
 
-/* Input BG */
-
 input {
   padding: 5px;
   margin: 27px;
@@ -135,4 +134,9 @@ input {
   align-items: center;
   padding-left: 15%;
   color: #454545;
+}
+
+.submit-page {
+  /* position: absolute; */
+  padding-top: calc((1080px/2) - 80px);
 }

@@ -1,6 +1,7 @@
 import formtitle from '../assets/formtitle.png';
 import righttitle from '../assets/righttitle.png';
-import description from '../assets/description.png'
+import description from '../assets/description.png';
+
 const PersonalInfo = () => {
     return (
         <div>
@@ -17,8 +18,6 @@ const PersonalInfo = () => {
             <div  className='title'><img src={righttitle} alt='title'/></div> 
                 <div className="centered1">
                 <img src={description} alt='description'/>
-                    <h2>John Doe</h2>
-                    <p>Some text here too.</p>
                 </div>
             </div>
         </div>
