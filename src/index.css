@@ -140,3 +140,7 @@ input {
   /* position: absolute; */
   padding-top: calc((1080px/2) - 80px);
 }
+
+i {
+  color: #FE3B1F;
+}
