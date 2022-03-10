@@ -3,7 +3,7 @@
 [https://rocketeerform.netlify.app/](https://rocketeerform.netlify.app/)
 
 
-#### Setup on your local machine:
+#### To setup on your local machine:
 `git clone https://github.com/sallyvellini/redberry-form.git`
 -> `cd redberry-form`
 -> `npm install`
