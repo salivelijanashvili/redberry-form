@@ -1,13 +1,19 @@
+import { Link } from "react-router-dom";
+
 const SubmitPage = () => {
     return (
         <div>
             <div className='submit-page submit-button'>
                 <div className='welcome-submit'>
-                    <p>Submit</p>
+                    <Link to='/final-page'>
+                        <p>Submit</p>
+                    </Link>
                 </div>
             </div>
             <div className='submitted-apps'>
-                <p><u>go back</u></p>
+                <Link to='/'>
+                    <p><u>go back</u></p>
+                </Link>
             </div>
         </div>
     )

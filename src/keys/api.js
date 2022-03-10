@@ -1,0 +1,1 @@
+export default 'https://bootcamp-2022.devtest.ge/api/applications?token=';

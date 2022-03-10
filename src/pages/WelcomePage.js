@@ -8,11 +8,11 @@ const WelcomePage = () => {
         <div className="welcome">
             <div  className='welcome-banner'><img src={Welcome} alt='welcome'/></div> 
             <div className='submit-button'>
-            <Link to="/personal-information">
                 <div className='welcome-submit'>
+                <Link to="/personal-information">
                     <p>Start Questionnaire</p>
+                </Link>
                 </div>
-            </Link>
             </div>
             <div className='submitted-apps'>
                 <p><u>Submitted Applications</u></p>
